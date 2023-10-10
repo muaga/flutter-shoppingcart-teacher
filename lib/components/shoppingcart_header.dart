@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 // 해당 페이지가 stateful인 이유 = 상태가 있는 위젯
-class ShoppingCartPage extends StatefulWidget {
-  const ShoppingCartPage({super.key});
+class ShoppingCartHeader extends StatefulWidget {
+  const ShoppingCartHeader({super.key});
 
   @override
-  State<ShoppingCartPage> createState() => _ShoppingCartPageState();
+  State<ShoppingCartHeader> createState() => _ShoppingCartPageState();
 }
 
-class _ShoppingCartPageState extends State<ShoppingCartPage> {
+class _ShoppingCartPageState extends State<ShoppingCartHeader> {
   // image id 초기화
   int selectedId = 0;
 
