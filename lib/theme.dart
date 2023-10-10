@@ -3,7 +3,8 @@ import 'package:flutter_shoppingcart/constants.dart';
 
 ThemeData theme() {
   return ThemeData(
-    primaryColor: kPrimaryColor,
+    primarySwatch: kPrimaryColor,
+    // primaryColor는 되지 않음
     scaffoldBackgroundColor: kPrimaryColor,
   );
 }
