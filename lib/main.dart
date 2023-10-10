@@ -39,5 +39,12 @@ class ShoppingCartPage extends StatelessWidget {
 
 // 기본 app bar
 AppBar _buildShoppingCartAppBar() {
-  return AppBar();
+  return AppBar(
+    leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
+    actions: [
+      IconButton(onPressed: () {}, icon: Icon(Icons.shopping_cart)),
+      SizedBox(width: 16),
+    ],
+    elevation: 0.0,
+  );
 }
